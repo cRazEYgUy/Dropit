@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2396CB041B2AD28500AF2CC1 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 2396CB031B2AD28500AF2CC1 /* Images */; };
 		23BCEDF71B29303200210836 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BCEDF61B29303200210836 /* main.m */; };
 		23BCEDFA1B29303200210836 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BCEDF91B29303200210836 /* AppDelegate.m */; };
 		23BCEDFD1B29303200210836 /* Dropit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 23BCEDFB1B29303200210836 /* Dropit.xcdatamodeld */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2396CB031B2AD28500AF2CC1 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Images; path = ../Images; sourceTree = "<group>"; };
 		23BCEDF11B29303200210836 /* Dropit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dropit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23BCEDF51B29303200210836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23BCEDF61B29303200210836 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				23BCEE041B29303200210836 /* Images.xcassets */,
 				23BCEE061B29303200210836 /* LaunchScreen.xib */,
 				23BCEDFB1B29303200210836 /* Dropit.xcdatamodeld */,
+				2396CB031B2AD28500AF2CC1 /* Images */,
 				23BCEDF41B29303200210836 /* Supporting Files */,
 			);
 			path = Dropit;
@@ -207,6 +210,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2396CB041B2AD28500AF2CC1 /* Images in Resources */,
 				23BCEE031B29303200210836 /* Main.storyboard in Resources */,
 				23BCEE081B29303200210836 /* LaunchScreen.xib in Resources */,
 				23BCEE051B29303200210836 /* Images.xcassets in Resources */,
@@ -428,6 +432,7 @@
 				23BCEE191B29303200210836 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		23BCEE1A1B29303200210836 /* Build configuration list for PBXNativeTarget "DropitTests" */ = {
 			isa = XCConfigurationList;
@@ -436,6 +441,7 @@
 				23BCEE1C1B29303200210836 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
