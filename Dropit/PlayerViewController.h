@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface PlayerViewController : UITableViewController
+//Declare the MutableArray
+@property (strong, nonatomic)NSMutableArray *players;
 
 @end

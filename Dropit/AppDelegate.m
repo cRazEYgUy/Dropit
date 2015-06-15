@@ -7,16 +7,87 @@
 //
 
 #import "AppDelegate.h"
+#import "Player.h"
+#import "PlayerViewController.h"
 
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
-
+    // new instance variable named _players
+    NSMutableArray *_players;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    //implement some code for Player
+    _players = [NSMutableArray arrayWithCapacity:20];
+    
+    Player *player= [[Player alloc] init];
+
+    player.name= @"Vampire";
+    player.game= @"Samurai Siege";
+    player.rating= 6;
+    [_players addObject: player];
+    
+    player= [[Player alloc] init];
+    player.name= @"Phyoe Phyoe";
+    player.game= @"Hay Day";
+    player.rating= 6;
+    [_players addObject: player];
+    
+    player= [[Player alloc] init];
+    player.name= @"Dede";
+    player.game= @"Candy Crush";
+    player.rating= 5;
+    [_players addObject: player];
+    
+    player= [[Player alloc] init];
+    player.name= @"MB";
+    player.game= @"Soda Crush";
+    player.rating= 3;
+    [_players addObject: player];
+    
+    player= [[Player alloc] init];
+    player.name= @"Ken";
+    player.game= @"FarmVille";
+    player.rating= 2;
+    [_players addObject: player];
+    
+    
+    player= [[Player alloc] init];
+    player.name= @"Xeon";
+    player.game= @"Happy CHef 2";
+    player.rating= 4;
+    [_players addObject: player];
+    
+    player= [[Player alloc] init];
+    player.name= @"Ko Chu Sein";
+    player.game= @"Subway Surf";
+    player.rating= 1;
+    [_players addObject: player];
+    
+    player= [[Player alloc] init];
+    player.name= @"Sho";
+    player.game= @"Plant Vs Zombie";
+    player.rating= 2;
+    [_players addObject: player];
+    
+    
+    player= [[Player alloc] init];
+    player.name= @"Two Bull";
+    player.game= @"Boom Beach";
+    player.rating= 6;
+    [_players addObject: player];
+    
+    //App Delegate gets the references programmatically from Top Level View Controller.
+    //coz Storyboard's limitations.
+    UITabBarController *myTabBarController= (UITabBarController *)self.window.rootViewController;
+    UINavigationController *myNavigationController= [myTabBarController viewControllers][0];
+    PlayerViewController *myPlayerViewController= [myNavigationController viewControllers][0];
+    //set the MutableArray into PlayerViewController's players // Check in PlayerVi
+    myPlayerViewController.players= _players;
     return YES;
 }
 

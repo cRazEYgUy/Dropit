@@ -7,7 +7,7 @@
 //
 
 #import "PlayerViewController.h"
-
+#import "Player.h"
 @interface PlayerViewController ()
 
 @end
@@ -34,24 +34,40 @@
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
 #warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 #warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 0;
+    return [self.players count];
 }
 
-/*
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+    //static NSString *CellIdentifier= @"Cell";
     
-    // Configure the cell...
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"PlayerCell"];
+    Player *player= (self.players)[indexPath.row];
+    cell.textLabel.text= player.name;
+    cell.detailTextLabel.text= player.game;
     
+    
+/*    if(cell == nil){
+        cell= [[UITableViewCell alloc] initWithStyle:(UITableViewCellStyleDefault) reuseIdentifier:CellIdentifier];
+    }
+*/
     return cell;
 }
-*/
+//- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+//{
+//    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"PlayerCell"];
+//    
+//    Player *player = (self.players)[indexPath.row];
+//    cell.textLabel.text = player.name;
+//    cell.detailTextLabel.text = player.game;
+//    
+//    return cell;
+//}
 
 /*
 // Override to support conditional editing of the table view.

@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>E6CB0A56-2CB0-4552-BAE3-B6258166DD40</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Dropit</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>13EC1237581CA5E339E9E5ED555C1203B137DB2E</key>
 		<string>https://github.com/winsandymyint/Dropit</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Dropit.xcodeproj/project.xcworkspace</string>
+	<string>Dropit.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>13EC1237581CA5E339E9E5ED555C1203B137DB2E</key>

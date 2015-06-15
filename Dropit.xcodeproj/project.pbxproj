@@ -19,6 +19,7 @@
 		23BCEE081B29303200210836 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23BCEE061B29303200210836 /* LaunchScreen.xib */; };
 		23BCEE141B29303200210836 /* DropitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BCEE131B29303200210836 /* DropitTests.m */; };
 		23BCEE1F1B29419C00210836 /* DropitBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BCEE1E1B29419C00210836 /* DropitBehavior.m */; };
+		23C1B34C1B2E766500F0C89E /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C1B34B1B2E766500F0C89E /* Player.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,8 @@
 		23BCEE131B29303200210836 /* DropitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropitTests.m; sourceTree = "<group>"; };
 		23BCEE1D1B29419C00210836 /* DropitBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropitBehavior.h; sourceTree = "<group>"; };
 		23BCEE1E1B29419C00210836 /* DropitBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropitBehavior.m; sourceTree = "<group>"; };
+		23C1B34A1B2E766500F0C89E /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		23C1B34B1B2E766500F0C89E /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,8 @@
 				23BCEDFF1B29303200210836 /* ViewController.m */,
 				23BCEE011B29303200210836 /* Main.storyboard */,
 				23712B281B2B008900FB8D42 /* PlayerViewController.h */,
+				23C1B34A1B2E766500F0C89E /* Player.h */,
+				23C1B34B1B2E766500F0C89E /* Player.m */,
 				23712B291B2B008900FB8D42 /* PlayerViewController.m */,
 				23712B2A1B2B008900FB8D42 /* PlayerViewController.xib */,
 				23BCEE1D1B29419C00210836 /* DropitBehavior.h */,
@@ -245,6 +250,7 @@
 				23BCEDFA1B29303200210836 /* AppDelegate.m in Sources */,
 				23BCEE001B29303200210836 /* ViewController.m in Sources */,
 				23BCEDF71B29303200210836 /* main.m in Sources */,
+				23C1B34C1B2E766500F0C89E /* Player.m in Sources */,
 				23712B2B1B2B008900FB8D42 /* PlayerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
